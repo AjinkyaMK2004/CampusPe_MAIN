@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- Page Header Start -->
+<div class="page-header" style="background: url( 'img/banner1.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="breadcrumb-wrapper">
+          <h2 class="product-title">FAQ</h2>
+          <!-- <ol class="breadcrumb">
+            <li><a href="#">Home /</a></li>
+            <li class="current">FAQ</li>
+          </ol> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Header End -->
+
+<!-- FAQ Start -->
+<div class="faq section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="head-faq text-center">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <!-- accordion start -->
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  How do I place an Ad?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse show">
+              <div class="panel-body">
+                <p>Click on Post an Ad button on the top right corner. It will redirect you to the Post An Ad page. </p>
+                <br>
+                <p>
+                  Enter the details as prompted in the form. Enter your correct details in the forms as the buyers would 
+                  contact you using those details.
+                  After posting an Ad, wait for the admin to approve the posts.
+                  If you want your ad to be featured, please contact us.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  Who should I to contact if I have any question?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>
+                  Please visit the contact details page. You will find the official email id there.
+                </p>
+                <br>
+               
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                  How do I purchase the product listed?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>
+                  We are just the facilitator between the buyer and the seller. You have to contact the respected seller in order to purchase the product.
+                </p>
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                  How do I contact the seller?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>
+                  You can contact the individual via his email address or phone number listed in the ad. It is suggested that you initiate contact with the individual via WhatsApp before calling directly.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- accordion End -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Content -->
+
+{% endblock content %}
