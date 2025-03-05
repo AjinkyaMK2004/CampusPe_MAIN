@@ -51,11 +51,6 @@ A few of the things you can do with Classified Ads:
 7. Migrate Database `python manage.py migrate`
 8. Finally Run The Project `python manage.py runserver`
 
-## Project Demo
-
-### Live Demo
-
-Live Project url: [huntingads.herokuapp.com](http://huntingads.herokuapp.com/)
 
 ### Home Page
 
